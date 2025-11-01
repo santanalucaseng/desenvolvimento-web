@@ -1,0 +1,33 @@
+*STYLES.CSS:* body {
+    background-color: gainsboro;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Seletor de classes*/
+.central {
+    text-align: center;
+}
+
+.item-menu {
+    display: inline;
+    margin: 0.6rem;
+    background-color: rgb(134, 225, 234);
+    padding: 0.7rem;
+    padding-right: 1rem;
+    border-right-style: solid;
+    border-color: rgb(10, 10, 106);
+}
+
+.item-menu:hover {
+    background-color:rgb(10, 10, 106);
+    color:white;
+}
+
+.item-menu a:hover {
+    color:gray
+}
+
+.menu {
+    background-color: aliceblue;
+    padding: 0.7rem;
+}
